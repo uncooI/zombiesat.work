@@ -38,31 +38,15 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Lummit',
-      link: '76561197960276740',
-    },
-    {
-      name: 'Neso',
-      link: '76561198193201687',
-    },
-    {
-      name: 'loljuxd',
-      link: '76561198016198032',
-    },
-    {
-      name: 'Lost',
-      link: '76561199079530557',
-    },
-    {
-      name: 'mannin',
-      link: '76561197975672336',
+      name: 'zzzzombie',
+      link: 'zzzzombie',
     },
   ];
 
   for (let i in links) {
     let link = links[i];
 
-    $('#marquee').append(`<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`);
+    $('#marquee').append(`<a href="https://soundcloud.com/${link.link}" target="_BLANK">${link.name}</a>`);
 
     link = $('#marquee').children('a').last();
 
@@ -75,7 +59,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Lummit', 'Neso', 'loljuxd', 'Vez', 'mannin', '=', 'obnoxious.club', 'Song name: KUSO GVKI - Cinnamon (feat. Apfel) (splash! Mag Premiere)']);
+  app.titleChanger(['zzzzombie']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
@@ -167,7 +151,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>obnoxious.club $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>zombiesat.work $$$</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
